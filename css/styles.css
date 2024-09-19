@@ -168,6 +168,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #E0E0E0
 }
 
 abbr[title] {
@@ -247,11 +248,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #EE3D40;
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #C72D30;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -641,6 +642,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  background-color: #000003
 }
 
 @media (min-width: 576px) {
@@ -7650,6 +7652,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: #F9F9F9
 }
 
 .mb-1 {
@@ -8037,7 +8040,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #EE3D40 !important;
 }
 
 .text-secondary {
@@ -8128,7 +8131,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #EE3D40 !important;
 }
 
 .bg-secondary {
@@ -10849,6 +10852,7 @@ h5,
 h6,
 .h6 {
   text-transform: uppercase;
+  color: #F9F9F9
 }
 
 h1, .h1 {
@@ -10865,6 +10869,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #E0E0E0;
 }
 
 #sideNav {
@@ -10937,7 +10942,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #EE3D40;
 }
 
 .dev-icons {
